@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="home.css">
+    <style>
+        #search {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+          e8b6
+        }
+        </style>
+    </style>
   
 </head>
 <body>
     <div id="headear">
         <div>
-            <img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg" alt="headimg">
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg" alt="headimg" >
         </div>
         <div>
-           <h3>Products</h3>
+           <h3><a href="product.html">Products</a> </h3>
         </div>
         <div> <h3>Plans</h3></div>
         <div> <h3>Resources</h3></div>
-        <div> <h3>Partners</h3></div>
+        <div> <h3><a href="partner.html">Partners</a> </h3></div>
         <div> <h3>support</h3></div>
-        <div> <h3><input type="search" placeholder="search"></h3></div>
-        <div> <h3>login</h3></div>
+        <div> <h3><input type="search" placeholder="search" id="search"></h3></div>
+        <div> <h3><a href="login.html">login</a> </h3></div>
         <div> <h3>Get started</h3></div>
 
     </div>
@@ -48,14 +59,14 @@
                 <h1>October 3-5</h1></div>
             <div>
                 
-               <h2> Marriot Marquis San Diego Marina</h2> 
+               <h2 style="margin-left: 20px;border-left: 2px solid red;"> Marriot Marquis San Diego Marina</h2> 
                </div>
         </div>
         <h3>Lock in early bird ticket pricing before Friday, July 22</h3>
         <div id="bluelink">
             <div>
-                <button>
-                    <a href="">Register now</a>
+                <button id="reg" >
+                    <a  href="">Register now</a>
                 </button></div>
             <div><a href=""><button>
                 <a href="">Learn more</a>
@@ -94,7 +105,7 @@
 
         </div>
         <div>
-            <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/ebay_logo.svg" alt="">
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/customer-logos/moco-food-logo-blue.svg" alt="">
 
         </div>
     </div>
@@ -162,14 +173,14 @@
                 <p>Use AI to test new features and personalize every touchpoint.</p>
                 <div id="subcont">
                     <div>
-                        <button><h5>CMS</h5></button>
+                        <button><h5>Web A/B testing</h5></button>
                         
                     </div>
-                    <div><button><h5>headless</h5></button></div>
-                    <div><button><h5>Approval workflow</h5></button></div>
-                    <div><button><h5>Media management</h5></button></div>
-                    <div><button><h5>Authorizing & layout</h5></button></div>
-                    <div><button><h5>Project management</h5></button></div>
+                    <div><button><h5>Personalization</h5></button></div>
+                    <div><button><h5>Feature management</h5></button></div>
+                    <div><button><h5>data</h5></button></div>
+                    <div><button><h5>Email</h5></button></div>
+                    <div><button><h5>Recommendations</h5></button></div>
                 </div>
             </div>
         </div>
@@ -240,13 +251,14 @@
             </ul>
         </div>
         <div>
+            
             <h1>First, we need to know a couple of things about you</h1>
-            <input type="text" id="" placeholder="First name">
-            <input type="text" placeholder="Last name">
-            <input type="email" placeholder="Work email">
-            <input type="text" placeholder="Company">
-            <input type="text" placeholder="Job title">
-            <input type="number" placeholder="Phone number(optional)">
+            <input type="text" id="name" placeholder="First name">
+            <input type="text" placeholder="Last name" id="last">
+            <input type="email" placeholder="Work email" id="email">
+            <input type="text" placeholder="Company" id="company">
+            <input type="text" placeholder="Job title" id="job">
+            <input type="number" placeholder="Phone number(optional)" id="num">
             <label for="">country--</label>
             <select  id="country">
                 <option value="india">india</option>
@@ -254,9 +266,9 @@
                 <option value="america">america</option>
             </select><br>
             <label id="labl">Additionoanal information</label><br>
-            <input type="text" style="border: 1px solid red;width: 600px;height: 50px;margin-bottom: 10px;margin-top: 15px;">
+            <input id="addition" type="text" style="border: 1px solid red;width: 600px;height: 50px;margin-bottom: 10px;margin-top: 15px;">
             <p>Optimizely will store and process your personal data as described in our Privacy Policy. You can opt out at any time.</p>
-            <button>Submit</button>
+            <button id="submit">Submit</button>
         </div>
     </div>
     <h1>Just for you</h1>
@@ -363,3 +375,4 @@
     
 </body>
 </html>
+<script src="home.js"> </script>

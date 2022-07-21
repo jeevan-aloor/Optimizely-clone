@@ -1,3 +1,6 @@
+*{
+    font-family: "TT Commons",Arial,sans-serif;
+}
 #headear{
     display: grid;
     display: flex;
@@ -84,6 +87,7 @@
 #bluetxt>div>h1{
     font-size: 40px;
     margin-top: 10px;
+    
 }
 #attractive>h3{
     text-align: center;
@@ -94,6 +98,7 @@
     width: 35%;
     margin: auto;
     /* border: 1px solid black; */
+    /* color: white; */
 }
 #bluelink>div{
     width: 300px;
@@ -127,6 +132,11 @@
 #sponser+h3:hover{
     background-color: blue;
     color: white;
+}
+#sponser>div:last-child>img{
+    width: 50%;
+    height: 100%;
+
 }
 #attractive+h1{
     margin: 90px 30px;
@@ -185,8 +195,12 @@
     border: 1px solid white;
     font-family: "TT Commons",Arial,sans-serif;
     border-radius: 20px;
+    color: #0037FF;
     
     
+}
+#subcont>div:hover{
+    color: #0037FF;
 }
 #subcont>div:nth-child(3){
     width: 180px;
@@ -398,7 +412,7 @@ input{
     border-radius: 20px;
 }
 #just>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 20px;
     font-size: 15px;
     font-family: "TT Commons Book",Arial,sans-serif;
@@ -490,4 +504,27 @@ input{
 #downfoot>h5:hover{
     color: white;
 }
+a{
+    text-decoration: none;
+}
+#bluelink>div>button>a:nth-child(1):hover{
+    background-color: darkblue;
+    color: white;
+    
+    
+    
+}
+#reg>a{
+    border: 2px solid red;
+    font-family: "TT Commons Book",Arial,sans-serif;
+    background-color:azure;
+    padding: 10px;
+    border-radius: 16px;
+    color: #0037FF;
+
+}
+/* #bluelink>div>button>a:nth-child(1){
+    background-color:lightcyan;
+    padding: 10px;
+} */
 
