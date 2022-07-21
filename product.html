@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="product.css">
+    <style>
+        #smallcont{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: 100px;
+            gap:20px;
+            margin: auto;
+            width: 60%;
+            margin-top: 30px;
+            cursor: pointer;
+            padding-top: 60px;
+        }
+        #smallcont>div{
+            /* border: 1px solid red; */
+            font-family: "TT Commons Book",Arial,sans-serif;
+            font-family:  "TT Commons Book",Arial,sans-serif;
+        }
+        #smallcont>div>h1{
+            font-size: 20px;
+            color: blue;
+            font-family: "TT Commons Book",Arial,sans-serif;
+            
+            
+        }
+        #smallcont>div:nth-child(1){
+            width: 550px;
+            border-right: 2px solid red;
+        }
+        #smallcont>div>h1:hover{
+            color:#000000;
+
+        }
+        #smallcont>div>h5{
+            color: #0037FF;
+        }
+        #smallcont>div>h5:hover{
+            border-bottom: 1px solid blueviolet;
+            
+            
+        }
+        #container{
+            width: 100%;
+            height: 600px;
+            background-color: #F6F6F6;
+        }
+        #market{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,100px);
+            gap: 20px;
+            width: 60%;
+            margin: auto;
+            margin-top: 30px;
+        }
+       
+        #market>div>img{
+            width: 30px;
+        }
+        
+        #market>div>p{
+            font-family: "TT Commons Book",Arial,sans-serif;
+        }
+        #recomendation{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 100px;
+            gap: 10px;
+            width: 60%;
+            margin: auto;
+            margin-top: 30px;
+            border-top: 2px solid red;
+            padding-top: 30px;
+        }
+        #recomendation>div{
+            
+            /* border: 1px solid red; */
+        }
+        #try{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,500px);
+            width: 80%;
+            margin: auto;
+            gap: 20px;
+
+        }
+        #try>div{
+            
+            border-radius: 20px;
+            background-color: #F6F6F6;
+        }
+        #try>div>button{
+            margin:40px 0px 0px  120px;
+            background-color: none;
+            border: none;
+            color: white;
+            background-color: blue;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        #try>div>button:hover{
+            background-color: darkblue;
+        }
+        #try>div>img{
+            width: 70px;
+            display: flex;
+        }
+        #try>div>p{
+            margin-left: 30px;
+        }
+        #try>div:nth-child(6){
+            background-color:#080736 ;
+            color: #fff;
+            font-family: "TT Commons Book",Arial,sans-serif;
+
+        }
+        #try>div:nth-child(6)>h1{
+            margin-left: 30px;
+            margin-top: 60px;
+        }
+        #try>div:nth-child(6)>button{
+            margin-bottom:110px;
+            margin-top: 50px;
+            
+        }
+        #try>div:nth-child(6)>button+p{
+            border-top: 2px solid white;
+            padding-top: 40px;
+
+        }
+        #bigdiv{
+            width: 100%;
+            height: 700px;
+            background-color: #F6F6F6;
+            margin-top: 80px;
+        }
+        #bigdiv>h1{
+            padding-top: 40px;
+            margin-left: 100px
+        }
+        #bigdiv>p{
+            
+            margin-left: 100px;
+            margin-bottom: 60px;
+            font-size: 25px;
+        }
+        #inteligent{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,200px);
+            gap: 20px;
+            width: 83%;
+            margin: auto;
+        }
+        #inteligent>div{
+            /* border: 1px solid red; */
+            font-family: "TT Commons Book",Arial,sans-serif;
+            color: #000000;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+        }
+        #inteligent>div>img{
+            width: 40px;
+        }
+        #inteligent>div>h1{
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        #inteligent>div>p{
+            margin-left: 20px;
+        }
+        #inteligent>div>p+p{
+            color: #0037FF;
+
+        }
+        #inteligent>div>p+p:hover{
+            color:#000000;
+        }
+        #container+h1{
+            font-size: 50px;
+            margin-left: 130px;
+        }
+        #additionals{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 300px;
+            gap: 20px;
+            width: 90%;
+            margin: auto;
+        }
+        #additionals>div{
+            /* border: 1px solid red; */
+            font-family: "TT Commons Book",Arial,sans-serif;
+        }
+        #additionals>div>img{
+            width: 50px;
+        }
+        #additionals>div>h3+p{
+            margin-bottom: 50px;
+        }
+        #bigdiv+h1{
+            margin-top: 90px;
+            margin-left: 60px;
+            margin-bottom: 60px;
+            font-size: 40px;
+            font-family: "TT Commons Book",Arial,sans-serif;
+            color: #000000;
+
+        }
+        #additionals>div:nth-child(1)>p{
+            margin-bottom: 80px;
+
+        }
+        #additionals>div:nth-child(4)>p{
+            margin-bottom: 80px;
+
+        }
+        #additionals>div:nth-child(3)>p{
+            margin-bottom: 70px;
+
+        }
+        #additionals>div>p+p{
+            color: #0037FF;
+            cursor: pointer;
+
+        }
+        #additionals>div>p+p:hover{
+            color:#000000;
+
+        }
+
+
+        #lastimg{
+            display: flex;
+            width: 90%;
+            height: 200px;
+            margin: auto;
+            margin-top: 70px;
+            border-radius: 10px;
+            background-color: blue;
+        }
+        #innimg{
+            display: flex;
+            width: 40%;
+            height: 50px;
+            border: 1px solid red;
+            margin: auto;
+            margin-right: 800px;
+        }
+        #footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 400px;
+    gap: 15px;
+    margin-top: 50px;
+    background-color: black;
+    /* width: 90%; */
+
+}
+#footer>div{
+    /* border: 1px solid white; */
+    width: 90%;
+    line-height: 0px;
+    color: white;
+}
+#footer>div>img{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid red;
+    padding-bottom: 30px;
+}
+#footer>div>h2{
+    margin-left:40px;
+    margin-bottom: 50px;
+}
+#footer>div>p{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    line-height: 15px;
+}
+#footer>div:nth-child(4)>label{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+#downfoot{
+    display: grid;
+    height: 100px;
+    
+    background-color: #393A5D;
+}
+#downfoot>h5{
+    margin:40px 0px 0px 50px;
+    color: white;
+}
+#downfoot>h5:hover{
+    color: white;
+}
+a{
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div id="headear">
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_logo_navigation.svg" alt="headimg">
+            <a href="home.html">.</a>
+        </div>
+        <div>
+           <h3>Products</h3>
+        </div>
+        <div> <h3>Plans</h3></div>
+        <div> <h3>Resources</h3></div>
+        <div> <h3><a href="partner.html">Partners</a></h3></div>
+        <div> <h3>support</h3></div>
+        <div> <h3><input type="search" placeholder="search"></h3></div>
+        <div> <h3>login</h3></div>
+        <div> <h3>Get started</h3></div>
+
+    </div>
+    <div id="container">
+        <div id="smallcont">
+            <div>
+                <h1>Digital Experience Platform</h1>
+                <p>Create a seamless digital journey for your customers with an open, extensible platform that provides one consistent foundation.</p>
+            </div>
+            <div>
+                <h5>App Marketplace
+                    </h5>
+                    <h5>Developer docs</h5>
+            </div>
+        </div>
+        <div id="market">
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentmarketingplatform.svg"<p style="margin-left:0px;">Marketting planning welcome <p style="margin-left: 23px;">Manage tasks, work, campaigns and content across teams for seamless collaboration.
+
+                </p></p> 
+                
+
+                
+                
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentcloud.svg"<p style="margin-left:0px;">Content management <p style="margin-left: 23px;">Easily create, tailor and scale content on a best-in-class enterprise CMS.
+
+                </p></p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_webexperimentation.svg"<p style="margin-left:0px;">Web A/B testing <p style="margin-left: 23px;">Experiment everywhere and personalize every touchpoint.
+
+                </p></p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_featuremanagement.svg"<p style="margin-left:0px;">Feature management <p style="margin-left: 23px;">Remotely manage and experiment on features server-side and in your apps.
+
+                </p></p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_commercecloud.svg"<p style="margin-left:0px;">Commerce <p style="margin-left: 23px;">Run multiple shops, inventory and a catalog online and/or offline.
+
+                </p></p>
+            </div>
+        </div>
+
+     <div id="recomendation">
+         <div>
+             <h4>
+                 Recomendation -->
+             </h4>
+            
+         </div>
+         <div>
+            <h4>
+                Customer Data
+            </h4>
+         </div>
+         <div>
+            <h4>
+                Digital asset management (DAM)  -->
+            </h4>
+         </div>
+         <div>
+            <h4>
+                email -->
+            </h4>
+         </div>
+
+     </div>  
+        
+        
+
+        
+
+    </div>
+    <h1>Plans & pricing</h1>
+    <div id="try">
+        
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentmarketingplatform.svg" alt="" ><h2 style="margin-left: 90px;margin-top: none;">welcome</h2>
+            
+            <p>Manage tasks, work, campaigns and content across teams for seamless collaboration.</p>
+            <ul>
+                <li>
+                    Digital asset management</li>
+                <li>
+                    Handle tasks and workflows</li>
+                <li>Streamline work requests</li>
+                <li>
+                    Integrated calendar to track timelines</li>
+                <li>Easy commenting and collaboration to avoid bottlenecks</li>
+                
+            </ul>
+            <button>Try for free</button>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentcloud.svg" alt="" ><h2 style="margin-left: 90px;margin-top: none;">
+                Content management</h2>
+            
+            <p>Create compelling content experiences. Empower your editors to compose great experiences by creating and combining content assets.</p>
+            <ul>
+                <li>
+                    Content management
+                    </li>
+                <li>
+                    Authoring and layout
+                    </li>
+                <li>Headless API
+                    </li>
+                <li>
+                    Approval workflow
+                    </li>
+                <li>Design compelling experiences
+                    </li>
+                    <li>Create once, publish everywhere
+                        </li>
+                        <li>Deliver content flexibly on .NET5</li>
+                
+            </ul>
+            <button>Request pricing</button>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_webexperimentation.svg" alt="" ><h2 style="margin-left: 90px;margin-top: none;">Web A/B testing</h2>
+            
+            <p>Experiment everywhere and personalize every touchpoint.</p>
+            <ul>
+                <li>
+                    
+                    Run many types of A/B tests
+                    </li>
+                    <li>
+                        Reliable results with stats engine
+                       </li>
+                <li> Personalize content
+                    </li>
+                <li>
+                    AI predictive audiences</li>
+                
+                
+            </ul>
+            <button>Request pricing</button>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_featuremanagement.svg" alt="" ><h2 style="margin-left: 90px;margin-top: none;">Feature management</h2>
+            
+            <p>Remotely manage and experiment on features server-side in your apps.</p>
+            <ul>
+                <li>
+                    
+                    SDKs in 10 programming languages
+                        </li>
+                <li>
+                    Advanced audience targeting
+                </li>
+                <li>Cached data files keep your app fast
+                   </li>
+                <li>
+                    Robust community and docs
+                </li>
+                
+                
+            </ul>
+            <button>Request pricing</button>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_commercecloud.svg" alt="" ><h2 style="margin-left: 90px;margin-top: none;">Commerce</h2>
+            
+            <p>Run multiple shops, inventory and a catalog online and/or offline.</p>
+            <ul>
+                <li>
+                    
+                Multi-site & multi-lingual
+                </li>
+                <li>
+                    Visitor targeting
+                </li>
+                <li>Project collaboration
+                    </li>
+                <li>
+                    Inventory and order management</li>
+                
+                
+            </ul>
+            <button>Request pricing</button>
+        </div>
+        <div>
+            <h1>Need more?</h1>
+            <p>No matter your tech stack or scale, we are here to help optimize your digital experiences.</p>
+            <button>See odd-ons</button>
+            <p>Not sure where to start?         Contact us  -->
+                
+                </p>
+        </div>
+
+    </div>
+    <div id="bigdiv">
+        <h1>Solutions just for you</h1>
+        <p>We combined products to unlock additional features</p>
+        <div id="inteligent">
+            <div>
+                <img src="https://www.optimizely.com/contentassets/addabccfcf4341c2bf2ac7387b6d5794/opt-icons_50px_intelligent-content.svg" alt="">
+                <h1>Intelligent Content</h1>
+                <p>You need to convert raw data into recommendations that drive engagement and grow revenue.</p>
+                <p>Learn more -->
+                </p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/contentassets/feb4a78e35a34e5fb20a6e618ce5ddde/opt-icon_50px_ecommerce.svg" alt="">
+                <h1>Adaptive Commerce</h1>
+                <p>See how you can automatically segment and target customers in real-time, predict behavior and infuse delight into every touchpoint.</p>
+                <p>Learn more -->
+                </p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/contentassets/fbcc8c7ff9b54bdc92e4d112e5bd69f4/opt-icons_50px_b2b.svg" alt="">
+                <h1>Digital Distribution</h1>
+                <p>Learn how to instantly boost conversions, cross-sells, upsells and order value with personalized product recommendations.</p>
+                <p>Learn more -->
+                </p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/contentassets/1fba8b0720b5440fbf3ab5afc9ff45a3/opt-icon_50px_optimization.svg" alt="">
+                <h1>Digital Optimization</h1>
+                <p>You need to collaborate effortlessly on content strategy, creation and analytics by going into deeper metrics than just web sessions.</p>
+                <p>Learn more -->
+                </p>
+            </div>
+            <div>
+                <img src="https://www.optimizely.com/contentassets/553eba1e73f64367ae841b02ba9aee0a/opt-icon_50px_headless.svg" alt="">
+                <h1>Headless Experiences</h1>
+                <p>You need to create feature flags, release products and run experiments in different parts of your stack, all from one place.</p>
+                <p>Learn more -->
+                </p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <h1>Additional add-ons and upgrades</h1>
+    <div id="additionals">
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentintelligence.svg" alt="">
+            <h3>Recommendations</h3>
+            <p>Get prescriptive guidance in real-time so you know what content will convert and drive revenue.</p>
+            <p>Learn more -->
+            </p>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_optimizelydataplatform.svg" alt="">
+            <h3>Customer data</h3>
+            <p>Align your entire brand around the customer experience and let us do the heavy lifting of surfacing opportunities, automating tasks and streamlining execution.</p>
+            <p>Learn more -->
+            </p>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_digitalassetmanagement.svg" alt="">
+            <h3>Digital asset management
+            </h3>
+            <p>Save time, eliminate waste and govern your brand with Library—a digital asset management tool built for marketing content.</p>
+            <p>Learn more -->
+            </p>
+        </div>
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/product-icons/light-background/opt-product_icon_50px_light_contentintelligence.svg" alt="">
+            <h3>Recommendations</h3>
+            <p>Get prescriptive guidance in real-time so you know what content will convert and drive revenue.</p>
+            <p>Learn more -->
+            </p>
+        </div>
+    </div>
+    <div id="lastimg">
+        <img src="https://www.optimizely.com/dist/f7701cee5b5147ab67dd.svg" alt=""  >
+        <div id="innimg">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div>
+            <img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_symbol_full-color.svg" alt="">
+            <h2>Products</h2>
+            <p>
+                Digital Experience 
+                </p>
+            <p>Content Cloud
+                </p>
+            <p>Commerce Cloud
+                </p>
+            <p>Intelligence Cloud
+                </p>
+            <p>Plans & pricing</p>
+        </div>
+        <div><img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_symbol_full-color.svg" alt="">
+            <h2>Products</h2>
+            <p>
+                Digital Experience 
+                </p>
+            <p>Content Cloud
+                </p>
+            <p>Commerce Cloud
+                </p>
+            <p>Intelligence Cloud
+                </p>
+            <p>Plans & pricing</p></div>
+        <div><img src="https://www.optimizely.com/globalassets/02.-global-images/navigation/optimizely_symbol_full-color.svg" alt="">
+            <h2>Products</h2>
+            <p>
+                Digital Experience 
+                </p>
+            <p>Content Cloud
+                </p>
+            <p>Commerce Cloud
+                </p>
+            <p>Intelligence Cloud
+                </p>
+            <p>Plans & pricing</p></div>
+        <div><img src="" alt="">
+            <h2>Products</h2>
+            <p>
+                Digital Experience 
+                </p>
+            <p>Content Cloud
+                </p>
+            <p>Commerce Cloud
+                </p>
+            <p>Intelligence Cloud
+                </p>
+            <p>Plans & pricing</p></div>
+        <div>
+            <label style="margin-left: 20px;">selct</label>
+            <select  id="language">
+                <option value="english">english</option>
+                <option value="spanish">spanish</option>
+                <option value="Norsk">Norsk</option>
+            </select>
+            <h2>Products</h2>
+            <p>
+                Digital Experience 
+                </p>
+            <p>Content Cloud
+                </p>
+            <p>Commerce Cloud
+                </p>
+            <p>Intelligence Cloud
+                </p>
+            <p>Plans & pricing</p></div>
+    </div>
+    <div id="downfoot">
+        <h5> 2022 Optimizely, Inc. All Rights Reserved.
+            Privacy policy
+            Website terms of use
+            Trust center</h5>
+    </div>
+
+    
+
+
+    
+
+    
+    
+
+    
+</body>
+</html>

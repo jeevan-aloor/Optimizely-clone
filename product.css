@@ -1,0 +1,17 @@
+#headear{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 80px;
+    gap: 10px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#headear>div:hover{
+    color:blue;
+    text-decoration: underline;
+    /* border: 1px solid red; */
+}
+#headear>div:nth-child(5){
+    width:400px ;
+}
