@@ -347,8 +347,9 @@ text-decoration: none;
 #headear>div:last-child:hover{
     color: #FFFFFF;
 }
-#footer>div>p{
-    font-size: 15px;
+#headear+h1{
+    font-size: 50px;
+    margin-left: 30px;
 }
 
 

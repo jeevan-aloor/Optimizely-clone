@@ -1,0 +1,116 @@
+#headear{
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 80px;
+    gap: 10px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#headear>div:last-child{
+    border: 1px solid blue;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin-top: 5px;
+    color: white;
+    background-color: blue;
+}
+#headear>div:hover{
+    color:blue;
+    text-decoration: underline;
+    /* border: 1px solid red; */
+}
+#headear>div:nth-child(5){
+    width:400px ;
+}
+        #infopage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 800px;
+    margin-top: 100px;
+}
+#infopage>div{
+    /* border: 1px solid red; */
+}
+#infopage>div:nth-child(1){
+    font-family: "TT Commons Book",Arial,sans-serif;
+    padding-top: 70px;
+    color: #FFFFFF;
+    background-color: #080736;
+    line-height: 30px;
+}
+
+#infopage>div:nth-child(1)>h1,p{
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+#infopage>div:nth-child(1)>ul{
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+#infopage>div:nth-child(1)>p+p{
+    margin-top: 40px;
+}
+#infopage>div>input{
+    width: 250px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    background-color:#3BE081 ;
+}
+#infopage>div>h1{
+    margin-left: 50px;
+}
+#infopage>div>input:nth-child(4){
+    width:500px ;
+}
+#infopage>div>select{
+    border: none;
+    border-bottom: 2px solid red;
+    margin-left: 40px;
+    width: 200px;
+    background-color: #3BE081;
+}
+#labl{
+    margin-left: 40px;
+    margin-top: 0px;
+}
+#labl+input{
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+#infopage>div>button{
+    margin-left: 100px;
+    border: 2px solid blue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    background-color: blue;
+    color: #FFFFFF;
+    
+    
+    margin-top: 0px;
+}
+#infopage>div>p{
+    margin-bottom: 15px;
+}
+#infopage>div:nth-child(2){
+    background-color: #3BE081;
+}
+#sucss{
+    font-size: 25px;
+    /* border: 2px solid blue; */
+    margin-right: 160px;
+    color: #000000;
+    background-color: #84c8e4;
+}
+a{
+    text-decoration: none;
+}
+#headear>div:last-child:hover{
+    color: #FFFFFF;
+}
