@@ -1,0 +1,113 @@
+*{
+    font-family: "TT Commons",Arial,sans-serif;
+}
+ #reghead{
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+     grid-template-rows: 50px;
+     gap: 20px;
+     width: 96%;
+     cursor: inherit;
+
+    }
+    #reghead>div{
+        /* border: 1px solid red; */
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #reghead>div:nth-child(1){
+        width: 500px;
+    }
+    body{
+        background-color: darkblue;
+        background-image: url("https://media-s3-us-east-1.ceros.com/optimizely/images/2022/04/25/105d9a99cee0f31848cb406b261f5b5d/gradient-path-1.png?imageOpt=1&fit=bounds&width=1456");
+        /* background-image: url("https://media-s3-us-east-1.ceros.com/optimizely/images/2022/04/25/8ba0b57a4da4335992bbe4f535ef2317/gradient-path-2.png?imageOpt=1&fit=bounds&width=1540"); */
+    }
+    #reghead>div:nth-child(7){
+        pointer-events: all;
+        width: 158px;
+        height: 44px;
+        left: 0px;
+        top: 0px;
+        border-radius: 50px;
+        cursor: pointer;
+        color: #000000;
+        z-index: 481;
+        background-color: rgb(78, 234, 234);
+
+    }
+    #reghead+img{
+        width: 800px;
+        margin-left: 300px;
+        margin-bottom: none;
+    }
+    img+h1{
+        margin-left: 550px;
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+    #regform{
+        width: 55%;
+        height: 600px;
+        background-color: blue;
+        margin-left: 400px;
+    }
+    #form{
+        display: flex;
+        width: 90%;
+        height: 75%;
+        margin: auto;
+        /* border: 1px solid black; */
+        margin-top: 40px;
+    }
+    #form>div{
+        width: 50%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    #form>div>input{
+        width: 90%;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 18px;
+        border-radius: 20px;
+        margin-bottom: 25px;
+        border: none;
+        text-align: center;
+    }
+    #form>div>label{
+        font-size: 25px;
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+    #form>div>button{
+        width: 100px;
+        height: 40px;
+        margin-left: 20px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 30px;
+        background-color: rgb(84, 221, 221);
+    }
+    #regform{
+        border-radius: 20px;
+        margin-top: 100px;
+    }
+    #regform>h1{
+        margin-left: 30px;
+        padding-top: 30px;
+        color: #FFFFFF;
+        font-family: "TT Commons",Arial,sans-serif;
+    }
+    #regform>p{
+        margin-left: 30px;
+        color: #FFFFFF;
+        font-family: "TT Commons",Arial,sans-serif;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    #headear>div:last-child:hover{
+        color: #FFFFFF;
+    }
