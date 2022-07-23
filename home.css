@@ -467,7 +467,7 @@ input{
     gap: 15px;
     margin-top: 50px;
     background-color: black;
-    /* width: 90%; */
+   
 
 }
 #footer>div{
@@ -475,6 +475,7 @@ input{
     width: 90%;
     line-height: 0px;
     color: white;
+    cursor: pointer;
 }
 #footer>div>img{
     width: 30%;
@@ -521,12 +522,14 @@ a{
     
 }
 #reg>a{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "TT Commons Book",Arial,sans-serif;
-    background-color:azure;
+    background-color:rgb(118, 232, 232);
     padding: 10px;
     border-radius: 16px;
     color: #0037FF;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 /* #bluelink>div>button>a:nth-child(1){
@@ -568,5 +571,18 @@ a{
 }
 #platform>div>img{
     width: 100%;
+}
+#cont>div>h3:hover{
+    color: #000000;
+
+}
+#ndcont>div>h3:hover{
+    color: #000000;
+}
+#nndcont>div>h3:hover{
+    color: #000000;
+}
+#attractive+h1{
+    margin-left: 70px;
 }
 

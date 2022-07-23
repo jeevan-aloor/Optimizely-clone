@@ -258,6 +258,7 @@
     width: 90%;
     line-height: 0px;
     color: white;
+    cursor: pointer;
 }
 #footer>div>img{
     width: 30%;
