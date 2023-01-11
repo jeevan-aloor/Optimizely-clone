@@ -4,6 +4,7 @@
 
 Optimizely is known for content, commerce and optimization with our Digital Experience Platform (DXP). Millions of experiences are served with our platform
 
+## Individual project
 
 ## 💫I'm used To make this project💫
 
@@ -15,7 +16,10 @@ Optimizely is known for content, commerce and optimization with our Digital Expe
 👉 Home page,plan page,get started page,login and sign up.
 👉 login and signup contain form validation.
 👉 Used to store the data in localstorage .
-![my](https://i.ibb.co/mRyQXHF/profile-pic-bck.png)
+
+
+
+![](https://i.ibb.co/kJ0BCCD/Screen-Shot-2022-12-12-at-8-55-44-PM.png)
 
 ![](https://lh3.googleusercontent.com/mw69sHLaoDOPudqgNmR7vnwaXJyE-F7WKQf77W4D8oNNFV_bRvuzwgNnMpNRunjagYQuxUft8-J5UnUIdF1Qr4pyKVeY0jhS6OawKvuWvvvBAPx1na4ZQRItWExnLjhkNU0bPPVxqeXonBfzuUU6XpN5216vF1qxnomw0LQpzQUbwbKoFG50odin01rArekJjlrRqXiorX1qgFZ4yw2KPAU77s0MbJink6YlmpFyNvm_POMBvZ0cl4MYMc6OuGZiMDSOm_xklZqOF-pQhV_XvbIwoEVajb5VjzNHXo2ijLLZ-KnPayisQBq_OG5l0TADIgHl9PN9TdyU8iSt93BpFaQtR-5MilvNpV5xurhu8EzL-HlyVJQohQrjBpgZxNmQFYyiT7ThzLVwhmAL-DD7cpTmw8emh4zpu3rWoE3W_tn1_G4LfqvJ9E3cDoDVmpZlpCe64QbZIM9K0Aw3VmBvkSNJGM649XCVQm8g2XRKgfyKuB4ZKs9sSjPH1rlmSEAaMDT2fUR2emhq3OccuBziJ6XjLJnptpyxyLqmmWY29JpNOKkyQbTh7bxDux4dF3QEEJz7CweMhLRt8h6giNIMrPcIVk-A0jYAcJySSwrE2l4CVFd0HaPY63t7VXUhLPYWtQy4uwFjl1OUI8DLAkLR09yMpOUbJyA4Mrvicilo_hDoAg-wy-6htA3PrKHZfux8yqRSYDP4RBllOI2E0S_RF_QKgme5PvIxu7pbLVuL-xN11lpnCwOet2MrmgyMYARJrb6TQOX8FhwioEiNzWAKWjl4o-kn_C1DhIBQxExCPW1Zcu4RM7I4pUu7uaovv-nlno5AoBuaaDRFngQqx8qDqaBGNhf8LCtbR6bIETtkaCp4CScqTDuqlL2TUbX6brxMnE6J-U4yGQg-UGyGzjQLk45hTVlq9B9_pFoycA7OkEfa6GbWIA=w1314-h821-no?authuser=0)
 
