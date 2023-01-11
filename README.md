@@ -1,4 +1,4 @@
-# OPTIMIZELY WEBSITE
+# ✨ OPTIMIZELY WEBSITE ✨
 
 ## About optimizely
 
